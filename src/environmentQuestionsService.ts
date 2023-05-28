@@ -20,6 +20,26 @@ export class EnvironmentQuestionsService {
       });
   }
 
+  checkAnswers(userAnswers: any): any {
+    let score = 0;
+
+    userAnswers.forEach((userAnswer: any) => {
+      const environmentQuestion = environmentQuestions.find((question) => {
+        return question.id === userAnswer.questionId;
+      });
+
+      if (environmentQuestion) {
+        environmentQuestion.answers.forEach((answer) => {
+          if (answer.id === userAnswer.answerId && answer.isCorrect) {
+            score++;
+          }
+        });
+      }
+    });
+
+    return score;
+  }
+
   getQuestions(): any {
     return this.#getFiveQuestions();
   }
