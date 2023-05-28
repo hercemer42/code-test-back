@@ -6,15 +6,18 @@ export class EnvironmentQuestionsService {
   questions = environmentQuestions;
 
   #getFiveQuestions(): any {
-    return this.questions.slice(0, 4).map((question) => {
-      const randomQuestion = JSON.parse(JSON.stringify(question));
+    return this.questions
+      .sort(() => Math.random() - Math.random())
+      .slice(0, 5)
+      .map((question) => {
+        const randomQuestion = JSON.parse(JSON.stringify(question));
 
-      randomQuestion.answers.forEach((answer) => {
-        delete answer.isCorrect;
+        randomQuestion.answers.forEach((answer) => {
+          delete answer.isCorrect;
+        });
+
+        return randomQuestion;
       });
-
-      return randomQuestion;
-    });
   }
 
   getQuestions(): any {
