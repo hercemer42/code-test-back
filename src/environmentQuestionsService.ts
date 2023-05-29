@@ -1,11 +1,12 @@
 import { Injectable } from '@nestjs/common';
 import * as environmentQuestions from './data/questions_environment.json';
+import { QuestionAndAnswers, UserAnswer } from './interfaces/quiz.interface';
 
 @Injectable()
 export class EnvironmentQuestionsService {
   questions = environmentQuestions;
 
-  #getFiveQuestions(): any {
+  #getFiveQuestions(): QuestionAndAnswers[] {
     return this.questions
       .sort(() => Math.random() - Math.random())
       .slice(0, 5)
@@ -20,16 +21,16 @@ export class EnvironmentQuestionsService {
       });
   }
 
-  checkAnswers(userAnswers: any): any {
+  checkAnswers(userAnswers: UserAnswer[]): number {
     let score = 0;
 
-    userAnswers.forEach((userAnswer: any) => {
-      const environmentQuestion = environmentQuestions.find((question) => {
-        return question.id === userAnswer.questionId;
+    userAnswers.forEach((userAnswer: UserAnswer) => {
+      const question = this.questions.find((q) => {
+        return q.id === userAnswer.questionId;
       });
 
-      if (environmentQuestion) {
-        environmentQuestion.answers.forEach((answer) => {
+      if (question) {
+        question.answers.forEach((answer) => {
           if (answer.id === userAnswer.answerId && answer.isCorrect) {
             score++;
           }
@@ -40,7 +41,7 @@ export class EnvironmentQuestionsService {
     return score;
   }
 
-  getQuestions(): any {
+  getQuestions(): QuestionAndAnswers[] {
     return this.#getFiveQuestions();
   }
 }
