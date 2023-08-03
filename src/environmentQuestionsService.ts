@@ -7,17 +7,15 @@ export class EnvironmentQuestionsService {
   questions = environmentQuestions;
 
   #getFiveQuestions(): QuestionAndAnswers[] {
-    return this.questions
-      .sort(() => Math.random() - Math.random())
-      .slice(0, 5)
-      .map((question) => {
-        const randomQuestion = JSON.parse(JSON.stringify(question));
+    return this.questions.map((question) => {
+        const questionToSend = JSON.parse(JSON.stringify(question));
 
-        randomQuestion.answers.forEach((answer) => {
+        // remove correct answer before sending the question to avoid cheating
+        questionToSend.answers.forEach((answer) => {
           delete answer.isCorrect;
         });
 
-        return randomQuestion;
+        return questionToSend;
       });
   }
 

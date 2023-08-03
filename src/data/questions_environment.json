@@ -6,7 +6,8 @@
       {"id": 1, "answer": "Forêt amazonienne", "isCorrect": true},
       {"id": 2, "answer": "Forêt du Congo", "isCorrect": false},
       {"id": 3, "answer": "Forêt de Bornéo", "isCorrect": false}
-    ]
+    ],
+    "difficulty": "easy"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
       {"id": 1, "answer": "Dioxyde de carbone (CO2)", "isCorrect": true},
       {"id": 2, "answer": "Méthane (CH4)", "isCorrect": false},
       {"id": 3, "answer": "Protoxyde d'azote (N2O)", "isCorrect": false}
-    ]
+    ],
+    "difficulty": "medium"
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
       {"id": 1, "answer": "Charbon", "isCorrect": false},
       {"id": 2, "answer": "Gaz naturel", "isCorrect": false},
       {"id": 3, "answer": "Énergie solaire", "isCorrect": true}
-    ]
+    ],
+    "difficulty": "easy"
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@
       {"id": 1, "answer": "Recyclage", "isCorrect": true},
       {"id": 2, "answer": "Incinération", "isCorrect": false},
       {"id": 3, "answer": "Enfouissement", "isCorrect": false}
-    ]
+    ],
+    "difficulty": "easy"
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@
       {"id": 1, "answer": "Urbanisation", "isCorrect": false},
       {"id": 2, "answer": "Exploitation minière", "isCorrect": false},
       {"id": 3, "answer": "Exploitation forestière", "isCorrect": true}
-    ]
+    ],
+    "difficulty": "medium"
   },
   {
     "id": 6,
@@ -51,7 +56,8 @@
       {"id": 1, "answer": "Émissions de carbone", "isCorrect": false},
       {"id": 2, "answer": "Déforestation", "isCorrect": false},
       {"id": 3, "answer": "Chlorofluorocarbones (CFC)", "isCorrect": true}
-    ]
+    ],
+    "difficulty": "medium"
   },
   {
     "id": 7,
@@ -60,7 +66,8 @@
       {"id": 1, "answer": "Combustibles fossiles", "isCorrect": false},
       {"id": 2, "answer": "Gaz naturel", "isCorrect": false},
       {"id": 3, "answer": "Énergie éolienne", "isCorrect": true}
-    ]
+    ],
+    "difficulty": "easy"
   },
   {
     "id": 8,
@@ -69,7 +76,8 @@
       {"id": 1, "answer": "Conservation", "isCorrect": false},
       {"id": 2, "answer": "Atténuation", "isCorrect": false},
       {"id": 3, "answer": "Restauration écologique", "isCorrect": true}
-    ]
+    ],
+    "difficulty": "easy"
   },
   {
     "id": 9,
@@ -78,7 +86,8 @@
       {"id": 1, "answer": "Énergie solaire", "isCorrect": false},
       {"id": 2, "answer": "Énergie géothermique", "isCorrect": false},
       {"id": 3, "answer": "Pétrole", "isCorrect": true}
-    ]
+    ],
+    "difficulty": "easy"
   },
   {
     "id": 10,
@@ -87,7 +96,8 @@
       {"id": 1, "answer": "Pollution plastique", "isCorrect": false},
       {"id": 2, "answer": "Émissions de carbone", "isCorrect": true},
       {"id": 3, "answer": "Déchets nucléaires", "isCorrect": false}
-    ]
+    ],
+    "difficulty": "medium"
   },
   {
     "id": 11,
@@ -96,7 +106,8 @@
       {"id": 1, "answer": "Monoculture", "isCorrect": false},
       {"id": 2, "answer": "Utilisation d'agrochimiques", "isCorrect": false},
       {"id": 3, "answer": "Rotation des cultures", "isCorrect": true}
-    ]
+    ],
+    "difficulty": "medium"
   },
   {
     "id": 12,
@@ -105,7 +116,8 @@
       {"id": 1, "answer": "Changement climatique", "isCorrect": true},
       {"id": 2, "answer": "Refroidissement global", "isCorrect": false},
       {"id": 3, "answer": "Réchauffement atmosphérique", "isCorrect": false}
-    ]
+    ],
+    "difficulty": "medium"
   },
   {
     "id": 13,
@@ -114,7 +126,8 @@
       {"id": 1, "answer": "Plastique", "isCorrect": false},
       {"id": 2, "answer": "Aluminium", "isCorrect": false},
       {"id": 3, "answer": "Bambou", "isCorrect": true}
-    ]
+    ],
+    "difficulty": "easy"
   },
   {
     "id": 14,
@@ -123,7 +136,8 @@
       {"id": 1, "answer": "Émissions industrielles", "isCorrect": false},
       {"id": 2, "answer": "Échappement des véhicules", "isCorrect": true},
       {"id": 3, "answer": "Déforestation", "isCorrect": false}
-    ]
+    ],
+    "difficulty": "medium"
   },
   {
     "id": 15,
@@ -132,7 +146,8 @@
       {"id": 1, "answer": "Biodiversité réduite", "isCorrect": true},
       {"id": 2, "answer": "Résilience accrue de l'écosystème", "isCorrect": false},
       {"id": 3, "answer": "Augmentation de la population de poissons", "isCorrect": false}
-    ]
+    ],
+    "difficulty": "medium"
   },
   {
     "id": 16,
@@ -141,7 +156,8 @@
       {"id": 1, "answer": "Énergie éolienne", "isCorrect": false},
       {"id": 2, "answer": "Énergie géothermique", "isCorrect": false},
       {"id": 3, "answer": "Énergie solaire", "isCorrect": true}
-    ]
+    ],
+    "difficulty": "hard"
   },
   {
     "id": 17,
@@ -150,7 +166,8 @@
       {"id": 1, "answer": "Béton", "isCorrect": false},
       {"id": 2, "answer": "Acier", "isCorrect": false},
       {"id": 3, "answer": "Bambou", "isCorrect": true}
-    ]
+    ],
+    "difficulty": "easy"
   },
   {
     "id": 18,
@@ -159,7 +176,8 @@
       {"id": 1, "answer": "Émissions de carbone", "isCorrect": false},
       {"id": 2, "answer": "Déforestation", "isCorrect": false},
       {"id": 3, "answer": "Chlorofluorocarbones (CFC)", "isCorrect": true}
-    ]
+    ],
+    "difficulty": "hard"
   },
   {
     "id": 19,
@@ -168,7 +186,8 @@
       {"id": 1, "answer": "Productivité agricole améliorée", "isCorrect": false},
       {"id": 2, "answer": "Diminution de la pollution de l'eau", "isCorrect": false},
       {"id": 3, "answer": "Perte de la couche fertile supérieure du sol", "isCorrect": true}
-    ]
+    ],
+    "difficulty": "hard"
   },
   {
     "id": 20,
@@ -177,6 +196,7 @@
       {"id": 1, "answer": "Compostage", "isCorrect": true},
       {"id": 2, "answer": "Incinération", "isCorrect": false},
       {"id": 3, "answer": "Enfouissement", "isCorrect": false}
-    ]
+    ],
+    "difficulty": "hard"
   }
 ]

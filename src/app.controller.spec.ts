@@ -16,8 +16,8 @@ describe('AppController', () => {
   });
 
   describe('Questions service', () => {
-    it('should return 5 environment questions', () => {
-      expect(appController.getEnvironmentQuestions().length).toEqual(5);
+    it('should return 20 environment questions', () => {
+      expect(appController.getEnvironmentQuestions().length).toEqual(20);
     });
     it('should not have the isCorrect property for each question', () => {
       const questions = appController.getEnvironmentQuestions();
@@ -28,8 +28,8 @@ describe('AppController', () => {
         });
       });
     });
-    it('should return 5 mitigation questions', () => {
-      expect(appController.getMitigationQuestions().length).toEqual(5);
+    it('should return 20 mitigation questions', () => {
+      expect(appController.getMitigationQuestions().length).toEqual(20);
     });
   });
 });
